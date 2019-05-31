@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.header-nav a {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 28px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+}
+
+/* #### INDEX PAGE */
+.traffic-img {
+    margin-bottom: 15px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +126,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal; 
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +134,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-of-type(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-of-type(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-of-type(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-of-type(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-of-type(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-of-type(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-of-type(8) {
+    background: hotpink;
+    animation: pinkbox 5s infinite;
+}
+@keyframes pinkbox {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+.middle-content .boxes .box:nth-of-type(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-of-type(10) {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +186,58 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* #### ABOUT PAGE #### */
+.skyline-img {
+    margin-bottom: 15px;
+}
+
+.about-blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: dotted black 2px;
+}
+.about-blurb h5 {
+    margin-left: 20px;
+}
+
+.about-blurb p {
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+.about-mid-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.learn-more {
+    margin: 20px 0;
+    
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: dotted black 2px;
+}
+.learn-more h5 {
+    margin-top: 10px;
+}
+.learn-more button {
+    margin: 15px 0;
+    padding: 6px 4px;
+    width: 30%;
+    border: solid black 2px;
+    border-radius: 6px;
+    background: white;
+}
+.about-bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    margin-left: 20px;
 }
 
 footer {
