@@ -160,7 +160,7 @@ p {
 
 .middle-content .boxes .box:nth-of-type(8) {
     background: hotpink;
-    /* animation: pinkbox 5s infinite; */
+    animation: pinkbox 5s infinite;
 }
 @keyframes pinkbox {
     from {left: 0px;}
@@ -243,6 +243,45 @@ p {
 .products-container {
     width: 800px;
     margin: 0 auto;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin: 25px 0;
+}
+
+.coding-languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.language-blocks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 80%;
+    width: 45%;
+    margin: 10px 0;
+}
+
+.language-blocks h4 {
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.language-blocks p {
+    width: 80%;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
 }
 
 /* #### FOOTER #### */
