@@ -160,7 +160,7 @@ p {
 
 .middle-content .boxes .box:nth-of-type(8) {
     background: hotpink;
-    animation: pinkbox 5s infinite;
+    /* animation: pinkbox 5s infinite; */
 }
 @keyframes pinkbox {
     from {left: 0px;}
@@ -239,7 +239,13 @@ p {
     margin-bottom: 25px;
     margin-left: 20px;
 }
+/* #### PRODUCTS PAGE #### */
+.products-container {
+    width: 800px;
+    margin: 0 auto;
+}
 
+/* #### FOOTER #### */
 footer {
     width: 100%;
     background: black;
